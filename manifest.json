@@ -2,23 +2,23 @@
   "name": "Apotek Dokter Aqa & Fitria",
   "short_name": "Apotek AQF",
   "description": "Sistem Manajemen Inventaris Obat - Apotek Dokter Aqa & Fitria",
-  "start_url": "/",
+  "start_url": "/apotek-aqa-fitria/",
   "display": "standalone",
   "background_color": "#E6F4FE",
   "theme_color": "#4F7DF3",
   "orientation": "portrait",
-  "scope": "/",
+  "scope": "/apotek-aqa-fitria/",
   "lang": "id",
   "categories": ["medical", "health", "business"],
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "/apotek-aqa-fitria/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon-512.png",
+      "src": "/apotek-aqa-fitria/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -37,14 +37,14 @@
     {
       "name": "Inventaris Obat",
       "short_name": "Inventaris",
-      "url": "/(tabs)/inventaris",
-      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+      "url": "/apotek-aqa-fitria/(tabs)/inventaris",
+      "icons": [{ "src": "/apotek-aqa-fitria/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Transaksi",
       "short_name": "Transaksi",
-      "url": "/(tabs)/transaksi",
-      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+      "url": "/apotek-aqa-fitria/(tabs)/transaksi",
+      "icons": [{ "src": "/apotek-aqa-fitria/icon-192.png", "sizes": "192x192" }]
     }
   ]
 }
