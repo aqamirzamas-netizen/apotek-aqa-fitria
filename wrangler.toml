@@ -1,0 +1,21 @@
+name = "apotek-aqa-fitria"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+main = "dist/index.html"
+
+[build]
+command = "pnpm build"
+cwd = "./"
+watch_paths = ["src/**/*.ts", "src/**/*.tsx"]
+
+[build.upload]
+format = "service-worker"
+
+[env.production]
+name = "apotek-aqa-fitria-prod"
+routes = [
+  { pattern = "apotek-aqa-fitria.pages.dev", zone_name = "pages.dev" }
+]
